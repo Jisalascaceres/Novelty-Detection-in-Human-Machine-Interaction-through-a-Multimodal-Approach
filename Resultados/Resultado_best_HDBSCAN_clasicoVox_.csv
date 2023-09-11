@@ -1,0 +1,2 @@
+,min_cluster_size,min_samples,Precision,Recall,F1,Accuracy
+30,15.0,2.0,0.9829984544049459,0.848,0.910522548317824,0.9166666666666666
