@@ -8,6 +8,15 @@ You can use the requirements file provided.
 ```
     pip install -r requirements.txt
 ```
+
+
+## Embedders
+
+The embedders used in the research were:
+
+- [X] For the audio [X-Vectpr](https://huggingface.co/pyannote/embedding)
+- [X] For the images [FaceNet](https://github.com/faustomorales/keras-facenet)
+      
 ## Dataset
 
 To reproduce the experiments, it is necessary is to download the 3 datasets used:
@@ -26,3 +35,14 @@ Once the embeddings are generated, the other scripts are free to use.
 Every script is named after the experiment it contains.
 
 There are a exception though, "Novelty Pyod" contains examples of many more models than the ones seen in the document.
+
+In the "Results" folder, you will discover the .csv files containing the performance results obtained from various tests.
+
+For experiments relying on the Genetic Algorithm, it is possible to load both the population and the best individual using Pygad. The files containing this data can be found within the "GA_results" directory.
+```
+    # load the results of the GA
+    Results = pygad.load(path)
+    # Access to the best individual
+    b_ind = Results.best_solution[0]
+```
+
