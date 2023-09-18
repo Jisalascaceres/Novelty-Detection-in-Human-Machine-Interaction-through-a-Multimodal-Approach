@@ -14,7 +14,7 @@ You can use the requirements file provided.
 
 The embedders used in the research were:
 
-- [X] For the audio [X-Vectpr](https://huggingface.co/pyannote/embedding)
+- [X] For the audio [X-Vector](https://huggingface.co/pyannote/embedding) (You have to register)
 - [X] For the images [FaceNet](https://github.com/faustomorales/keras-facenet)
       
 ## Dataset
@@ -40,6 +40,7 @@ In the "Results" folder, you will discover the .csv files containing the perform
 
 For experiments relying on the Genetic Algorithm, it is possible to load both the population and the best individual using Pygad. The files containing this data can be found within the "GA_results" directory.
 ```
+import pygad
     # load the results of the GA
     Results = pygad.load(path)
     # Access to the best individual
