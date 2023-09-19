@@ -27,7 +27,7 @@ To reproduce the experiments, it is necessary is to download the 3 datasets used
 
 - [X] [Mobio](https://www.idiap.ch/en/dataset/mobio)
 
-Once downloaded, put them in folders and generate the embeddings with the correspondent file.
+Once downloaded, put them in folders and generate the embeddings with the correspondent file. You will probably need to modify the fuctions that load the data.
 
 ## Experiments
 
