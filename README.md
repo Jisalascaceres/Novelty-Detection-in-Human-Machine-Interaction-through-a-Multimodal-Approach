@@ -1,5 +1,5 @@
 # Novelty Detection in Human Machine Interaction through a Multimodal Approach
-This repositorie contains the code used in the paper: [Novelty Detection in Human Machine Interaction through a Multimodal Approach](link)
+This repositorie contains the code used in the paper: [Novelty Detection in Human Machine Interaction through a Multimodal Approach](https://link.springer.com/chapter/10.1007/978-3-031-49018-7_33)
 
 ## Installation
 
