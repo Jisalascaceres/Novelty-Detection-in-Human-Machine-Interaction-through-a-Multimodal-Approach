@@ -1,9 +1,9 @@
 # Novelty Detection in Human Machine Interaction through a Multimodal Approach
-This repositorie contains the code used in the paper: [Novelty Detection in Human Machine Interaction through a Multimodal Approach](https://link.springer.com/chapter/10.1007/978-3-031-49018-7_33)
+This repository contains the code used in the paper: [Novelty Detection in Human Machine Interaction through a Multimodal Approach](https://link.springer.com/chapter/10.1007/978-3-031-49018-7_33)
 
 ## Installation
 
-To use the code made for the paper, the first thing to do is install the libraries used.
+The first thing to do in order to use the code is to install the libraries used.
 You can use the requirements file provided.
 ```
     pip install -r requirements.txt
@@ -14,12 +14,12 @@ You can use the requirements file provided.
 
 The embedders used in the research were:
 
-- [X] For the audio [X-Vector](https://huggingface.co/pyannote/embedding) (You have to register)
+- [X] For the audio [X-Vector](https://huggingface.co/pyannote/embedding) (Registration needed)
 - [X] For the images [FaceNet](https://github.com/faustomorales/keras-facenet)
       
 ## Dataset
 
-To reproduce the experiments, it is necessary is to download the 3 datasets used:
+To reproduce the experiments, it is necessary to download the 3 datasets used:
 
 - [X] [AveRobot](http://mozart.dis.ulpgc.es/averobot/)
 
